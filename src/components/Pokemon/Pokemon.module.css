@@ -1,0 +1,15 @@
+.wrapper {
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;
+}
+
+.container {
+	min-width: 500px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.info {
+	min-width: 400px;
+}
