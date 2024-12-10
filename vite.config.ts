@@ -3,13 +3,13 @@ import { defineConfig, loadEnv } from 'vite'
 
 // https://vite.dev/config/
 export default defineConfig(({ mode }) => {
-	const env = loadEnv(mode, process.cwd(), '')
+  const env = loadEnv(mode, process.cwd(), '')
 
-	return {
-		define: {
-			'process.env': env,
-		},
-		plugins: [react()],
-		base: './',
-	}
+  return {
+    define: {
+      'process.env': env,
+    },
+    plugins: [react()],
+    base: './',
+  }
 })

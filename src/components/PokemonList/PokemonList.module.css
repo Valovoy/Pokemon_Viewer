@@ -1,33 +1,33 @@
 .list {
-	padding: 0;
-	margin-right: 20px;
+  padding: 0;
+  margin-right: 20px;
 }
 
 .itemContainer {
-	cursor: pointer;
-	padding: 10px 20px;
-	width: 100%;
-	margin-block: 10px;
-	border: 1px solid #ccc;
-	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  padding: 10px 20px;
+  width: 100%;
+  margin-block: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 
-	color: #333;
-	border-radius: 5px;
-	display: flex;
-	justify-content: space-between;
-	min-width: 200px;
+  color: #333;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  min-width: 200px;
 }
 
 .sortButton {
-	border: none;
-	margin: 0;
-	padding: 0;
-	width: auto;
-	overflow: visible;
-	cursor: pointer;
-	background: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  cursor: pointer;
+  background: transparent;
 }
 
 .itemContainer:hover {
-	background-color: rgb(212, 246, 246);
+  background-color: rgb(212, 246, 246);
 }
